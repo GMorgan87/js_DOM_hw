@@ -29,6 +29,7 @@ const handleInputForm = function (event) {
 
 const handleButtonClick = function () {
   const bikeList = find('#bike-list')
+  bikeList.innerHTML = '';
 };
 
 
