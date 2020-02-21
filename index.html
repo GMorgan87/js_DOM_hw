@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bike Inventory</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form id="input-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="make" class="primary">Manufacturer</label>
+          <input type="text" id="make" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="model" class="primary">Model</label>
+          <input type="text" id="model" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="category" class="primary">Category</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Road">Road</option>
+            <option value="Hardtail">Gravel</option>
+            <option value="Downhill">Downhill</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+      <button id="button" type="button">Delete</button>
+    </form>
+
+    <h1>Bike List</h1>
+    <ul id="bike-list"></ul>
+
+  </body>
+</html>
