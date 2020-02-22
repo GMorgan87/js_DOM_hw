@@ -1,0 +1,17 @@
+body {
+  font-family: impact;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  background-color: #ccc;
+  padding: 30px;
+  width: 30%;
+  margin: 20px;
+  text-justify: center;
+}
